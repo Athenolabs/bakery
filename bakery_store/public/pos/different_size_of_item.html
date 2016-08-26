@@ -1,0 +1,11 @@
+<div class="pos-item-grids" data-item-code="{%= item_code %}" title="{%= item_code %}">
+	<div class="pos-item-image {% if (!image) { %} no-image {% } %}"
+		 style="{% if (image) { %} background-image: {%= image %} {% } %}">
+	</div>
+	<div class="pos-item-text">
+		<h6 class="item-code text-ellipsis"> {%= size %}</h6>
+		<div class="small text-ellipsis">{%= price %}</div>
+		<input class="text-ellipsis pos-inline" type="radio" name="{%= item_code %}" value="{%= size%}" checked> 
+		
+	</div>
+</div>
