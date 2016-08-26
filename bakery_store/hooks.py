@@ -112,4 +112,4 @@ app_include_css = "assets/css/bakery_store.css"
 # 	"frappe.desk.doctype.event.event.get_events": "bakery_store.event.get_events"
 # }
 
-fixtures= ['Custom Script','Property Setter','Custom Field']
+fixtures= ['Custom Script','Property Setter','Custom Field', 'Item Group']
